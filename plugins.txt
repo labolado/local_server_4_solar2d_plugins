@@ -1,0 +1,55 @@
+["plugin.google.iap.billing.plus"] = { 
+	publisherId = "com.coronalabs",
+	supportedPlatforms = {
+		["android"] = {url = "http://localhost:10980/plugins/android/plugin.google.iap.billing.plus/2017.3105-android.tgz"},
+	}
+},
+["plugin.zip"] = { 
+	publisherId = "com.coronalabs",
+	supportedPlatforms = {
+		["android"] = {url = "http://localhost:10980/plugins/android/plugin.zip/2017.3037-android.tgz"},
+		["iphone"] = {url = "http://localhost:10980/plugins/iphone/plugin.zip/2020.3590-iphone.tgz"},
+		["iphone-sim"] = {url = "http://localhost:10980/plugins/iphone-sim/plugin.zip/2017.3037-iphone-sim.tgz"},
+		["macos"] = {url = "http://localhost:10980/plugins/macos/plugin.zip/2017.3037-mac-sim.tgz"},
+		["win32"] = {url = "http://localhost:10980/plugins/win32/plugin.zip/2017.3037-win32-sim.tgz"},
+		["appletvos"] = {url = "http://localhost:10980/plugins/appletvos/plugin.zip/2017.3037-appletvos.tgz"},
+	}
+},
+["plugin.bit"] = { 
+	publisherId = "com.coronalabs",
+	supportedPlatforms = {
+		["android"] = {url = "http://localhost:10980/plugins/android/plugin.bit/2013.2584-android.tgz"},
+		["iphone"] = {url = "http://localhost:10980/plugins/iphone/plugin.bit/2020.3590-iphone.tgz"},
+		["iphone-sim"] = {url = "http://localhost:10980/plugins/iphone-sim/plugin.bit/2013.2584-iphone-sim.tgz"},
+		["macos"] = {url = "http://localhost:10980/plugins/macos/plugin.bit/2013.2584-mac-sim.tgz"},
+		["win32"] = {url = "http://localhost:10980/plugins/win32/plugin.bit/2013.2584-win32-sim.tgz"},
+		["appletvos"] = {url = "http://localhost:10980/plugins/appletvos/plugin.bit/2013.2584-appletvos.tgz"},
+		["web"] = {url = "http://localhost:10980/plugins/web/plugin.bit/2013.2584-web.tgz"},
+	}
+},
+["plugin.storage"] = { 
+	publisherId = "com.coronalabs",
+	supportedPlatforms = {
+		["android"] = {url = "http://localhost:10980/plugins/android/plugin.storage/2020.3620-android.tgz"},
+		["iphone"] = {url = "http://localhost:10980/plugins/iphone/plugin.storage/2020.3620-iphone.tgz"},
+	}
+},
+["plugin.google.iap.v3"] = { 
+	publisherId = "com.coronalabs",
+	supportedPlatforms = {
+		["android"] = {url = "http://localhost:10980/plugins/android/plugin.google.iap.v3/2017.3105-android.tgz"},
+	}
+},
+["CoronaProvider.native.popup.social"] = { 
+	publisherId = "com.coronalabs",
+	supportedPlatforms = {
+		["android"] = {url = "http://localhost:10980/plugins/android/CoronaProvider.native.popup.social/2013.1164-android.tgz"},
+		["mac"] = {url = "http://localhost:10980/plugins/mac/CoronaProvider.native.popup.social/2013.1164-mac-sim.tgz"},
+	}
+},
+["plugin.amazon.iap"] = { 
+	publisherId = "com.coronalabs",
+	supportedPlatforms = {
+		["android-kindle"] = {url = "http://localhost:10980/plugins/android-kindle/plugin.amazon.iap/2013.2731-android.tgz"},
+	}
+},
