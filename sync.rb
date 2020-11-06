@@ -8,7 +8,7 @@ require 'tmpdir' # Not needed if you are using rails.
 require 'open3'
 require 'pty'
 
-localServer = "http://loclahost:10980/"
+localServer = "http://127.0.0.1:10980/"
 urls = {
 	"plugin.google.iap.billing.plus" => {
 		"android" => "https://github.com/labolado/plugin.google.iap.billing.plus/releases/download/v1/2017.3105-android.tgz"
@@ -145,7 +145,8 @@ urls.keys.each do |key|
 	items.keys.each do |platform|
 		url = items[platform]
 				fname = url.split('/')[-1]
-		newUrl = "http://localhost:10980/plugins/#{platform}/#{key}/#{fname}"
+		newUrl = "#{localServer}plugins/#{platform}/#{key}/#{fname}"
+		#newUrl = "https://github.91chifun.workers.dev//#{url}"
 		text +=  "\t\t[\"#{platform}\"] = {url = \"#{newUrl}\"},\r\n"
 
 		fileNames[url] = {:dir =>"/plugins/#{platform}/#{key}",  :name => "#{fname}"}
