@@ -53,3 +53,9 @@
 		["android-kindle"] = {url = "http://127.0.0.1:10980/plugins/android-kindle/plugin.amazon.iap/2013.2731-android.tgz"},
 	}
 },
+["plugin.reviewPopUp"] = { 
+	publisherId = "com.coronalabs",
+	supportedPlatforms = {
+		["iphone"] = {url = "http://127.0.0.1:10980/plugins/iphone/plugin.reviewPopUp/2016.3065-iphone.tgz"},
+	}
+},

@@ -51,7 +51,9 @@ urls = {
 	"plugin.amazon.iap" => {
 		"android-kindle" => "https://github.com/coronalabs/com.coronalabs-plugin.amazon.iap/releases/download/v2/2013.2731-android.tgz",
 	},
-
+	"plugin.reviewPopUp" => {
+		"iphone" => "https://github.com/solar2d/tech.scotth-plugin.reviewPopUp/releases/download/v1/2016.3065-iphone.tgz"
+	}
 
 	# :android => {
 	# 	"plugin.zip" => "",
