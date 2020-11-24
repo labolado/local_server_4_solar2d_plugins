@@ -57,5 +57,6 @@
 	publisherId = "com.coronalabs",
 	supportedPlatforms = {
 		["iphone"] = {url = "http://127.0.0.1:10980/plugins/iphone/plugin.reviewPopUp/2016.3065-iphone.tgz"},
+		["iphone-sim"] = {url = "http://127.0.0.1:10980/plugins/iphone-sim/plugin.reviewPopUp/2016.3065-iphone-sim.tgz"},
 	}
 },

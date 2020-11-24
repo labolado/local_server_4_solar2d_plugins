@@ -11,8 +11,7 @@ require 'pty'
 localServer = "http://127.0.0.1:10980/"
 urls = {
 	"plugin.google.iap.billing.plus" => {
-		"android" => "https://github.com/labolado/plugin.google.iap.billing.plus/releases/download/v1/2017.3105-android.tgz"
-
+		"android" => "https://github.com/labolado/plugin.google.iap.billing.plus/releases/download/v2/2017.3105-android.tgz"
 	},
 	"plugin.zip" => {
 		"android" => "https://github.com/coronalabs/com.coronalabs-plugin.zip/releases/download/v2/2017.3037-android.tgz",
@@ -52,7 +51,8 @@ urls = {
 		"android-kindle" => "https://github.com/coronalabs/com.coronalabs-plugin.amazon.iap/releases/download/v2/2013.2731-android.tgz",
 	},
 	"plugin.reviewPopUp" => {
-		"iphone" => "https://github.com/solar2d/tech.scotth-plugin.reviewPopUp/releases/download/v1/2016.3065-iphone.tgz"
+		"iphone" => "https://github.com/solar2d/tech.scotth-plugin.reviewPopUp/releases/download/v1/2016.3065-iphone.tgz",
+		"iphone-sim" => "https://github.com/solar2d/tech.scotth-plugin.reviewPopUp/releases/download/v1/2016.3065-iphone-sim.tgz"
 	}
 
 	# :android => {
