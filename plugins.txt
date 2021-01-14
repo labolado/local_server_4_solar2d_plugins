@@ -1,3 +1,9 @@
+["plugin.android.assets"] = { 
+	publisherId = "com.coronalabs",
+	supportedPlatforms = {
+		["android"] = {url = "http://127.0.0.1:10980/plugins/android/plugin.android.assets/2020.3620-android.tgz"},
+	}
+},
 ["plugin.google.iap.billing.plus"] = { 
 	publisherId = "com.coronalabs",
 	supportedPlatforms = {
@@ -11,7 +17,6 @@
 		["iphone"] = {url = "http://127.0.0.1:10980/plugins/iphone/plugin.zip/2020.3590-iphone.tgz"},
 		["iphone-sim"] = {url = "http://127.0.0.1:10980/plugins/iphone-sim/plugin.zip/2017.3037-iphone-sim.tgz"},
 		["macos"] = {url = "http://127.0.0.1:10980/plugins/macos/plugin.zip/2017.3037-mac-sim.tgz"},
-		["win32"] = {url = "http://127.0.0.1:10980/plugins/win32/plugin.zip/2017.3037-win32-sim.tgz"},
 		["appletvos"] = {url = "http://127.0.0.1:10980/plugins/appletvos/plugin.zip/2017.3037-appletvos.tgz"},
 	}
 },

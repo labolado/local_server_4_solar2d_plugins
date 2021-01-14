@@ -10,6 +10,10 @@ require 'pty'
 
 localServer = "http://127.0.0.1:10980/"
 urls = {
+
+	"plugin.android.assets" => {
+		"android" => "https://github.com/labolado/solar2d_plugin.android.assets/releases/download/v1/2020.3620-android.tgz"
+	},
 	"plugin.google.iap.billing.plus" => {
 		"android" => "https://github.com/labolado/plugin.google.iap.billing.plus/releases/download/v2/2017.3105-android.tgz"
 	},
@@ -18,7 +22,7 @@ urls = {
 		"iphone" => "https://github.com/coronalabs/com.coronalabs-plugin.zip/releases/download/v2/2020.3590-iphone.tgz",
 		"iphone-sim" => "https://github.com/coronalabs/com.coronalabs-plugin.zip/releases/download/v2/2017.3037-iphone-sim.tgz",
 		"macos" => "https://github.com/coronalabs/com.coronalabs-plugin.zip/releases/download/v2/2017.3037-mac-sim.tgz",
-		"win32" => "https://github.com/coronalabs/com.coronalabs-plugin.zip/releases/download/v2/2017.3037-win32-sim.tgz",
+		# "win32" => "https://github.com/coronalabs/com.coronalabs-plugin.zip/releases/download/v2/2017.3037-win32-sim.tgz",
 		"appletvos" => "https://github.com/coronalabs/com.coronalabs-plugin.zip/releases/download/v2/2017.3037-appletvos.tgz",
 	},
 	"plugin.bit" => {
