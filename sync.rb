@@ -37,8 +37,8 @@ urls = {
 	},
 
 	"plugin.storage" => {
-		"android" => "https://github.com/labolado/solar2d-plugin_storage/releases/download/v2/2020.3620-android.tgz",
-		"iphone" => "https://github.com/labolado/solar2d-plugin_storage/releases/download/v2/2020.3620-iphone.tgz"
+		"android" => "https://github.com/labolado/solar2d-plugin_storage/releases/download/v3/2020.3620-android.tgz",
+		"iphone" => "https://github.com/labolado/solar2d-plugin_storage/releases/download/v3/2020.3620-iphone.tgz"
 	},
 
 	"plugin.google.iap.v3" => {
