@@ -41,6 +41,12 @@ urls = {
 		"iphone" => "https://github.com/labolado/solar2d-plugin_storage/releases/download/v3/2020.3620-iphone.tgz"
 	},
 
+	"plugin.social.share" => {
+		"android" => "https://github.com/labolado/solar2d-plugin.social.share/releases/download/v1/2020.3620-android.tgz",
+		"iphone" => "https://github.com/labolado/solar2d-plugin.social.share/releases/download/v1/2020.3620-iphone.tgz",
+		"iphone-sim" => "https://github.com/labolado/solar2d-plugin.social.share/releases/download/v1/2020.3620-iphone-sim.tgz"
+	},
+
 	"plugin.google.iap.v3" => {
 		"android" => "https://github.com/coronalabs/com.coronalabs-plugin.google.iap.v3/releases/download/v1/2017.3105-android.tgz"
 	},
