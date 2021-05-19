@@ -17,6 +17,8 @@
 		["iphone"] = {url = "http://127.0.0.1:10980/plugins/iphone/plugin.zip/2020.3590-iphone.tgz"},
 		["iphone-sim"] = {url = "http://127.0.0.1:10980/plugins/iphone-sim/plugin.zip/2017.3037-iphone-sim.tgz"},
 		["macos"] = {url = "http://127.0.0.1:10980/plugins/macos/plugin.zip/2017.3037-mac-sim.tgz"},
+		["win32"] = {url = "http://127.0.0.1:10980/plugins/win32/plugin.zip/2017.3037-win32-sim.tgz"},
+		["win32-sim"] = {url = "http://127.0.0.1:10980/plugins/win32-sim/plugin.zip/2017.3037-win32-sim.tgz"},
 		["appletvos"] = {url = "http://127.0.0.1:10980/plugins/appletvos/plugin.zip/2017.3037-appletvos.tgz"},
 	}
 },
@@ -28,6 +30,7 @@
 		["iphone-sim"] = {url = "http://127.0.0.1:10980/plugins/iphone-sim/plugin.bit/2013.2584-iphone-sim.tgz"},
 		["macos"] = {url = "http://127.0.0.1:10980/plugins/macos/plugin.bit/2013.2584-mac-sim.tgz"},
 		["win32"] = {url = "http://127.0.0.1:10980/plugins/win32/plugin.bit/2013.2584-win32-sim.tgz"},
+		["win32-sim"] = {url = "http://127.0.0.1:10980/plugins/win32-sim/plugin.bit/2013.2584-win32-sim.tgz"},
 		["appletvos"] = {url = "http://127.0.0.1:10980/plugins/appletvos/plugin.bit/2013.2584-appletvos.tgz"},
 		["web"] = {url = "http://127.0.0.1:10980/plugins/web/plugin.bit/2013.2584-web.tgz"},
 	}
@@ -57,7 +60,7 @@
 	publisherId = "com.coronalabs",
 	supportedPlatforms = {
 		["android"] = {url = "http://127.0.0.1:10980/plugins/android/CoronaProvider.native.popup.social/2013.1164-android.tgz"},
-		["mac"] = {url = "http://127.0.0.1:10980/plugins/mac/CoronaProvider.native.popup.social/2013.1164-mac-sim.tgz"},
+		["macos"] = {url = "http://127.0.0.1:10980/plugins/macos/CoronaProvider.native.popup.social/2013.1164-mac-sim.tgz"},
 	}
 },
 ["plugin.amazon.iap"] = { 
@@ -71,5 +74,13 @@
 	supportedPlatforms = {
 		["iphone"] = {url = "http://127.0.0.1:10980/plugins/iphone/plugin.reviewPopUp/2016.3065-iphone.tgz"},
 		["iphone-sim"] = {url = "http://127.0.0.1:10980/plugins/iphone-sim/plugin.reviewPopUp/2016.3065-iphone-sim.tgz"},
+	}
+},
+["plugin.steamworks"] = { 
+	publisherId = "com.coronalabs",
+	supportedPlatforms = {
+		["macos"] = {url = "http://127.0.0.1:10980/plugins/macos/plugin.steamworks/2020.3590-mac-sim.tgz"},
+		["win32"] = {url = "http://127.0.0.1:10980/plugins/win32/plugin.steamworks/2020.3590-win32-sim.tgz"},
+		["win32-sim"] = {url = "http://127.0.0.1:10980/plugins/win32-sim/plugin.steamworks/2020.3590-win32-sim.tgz"},
 	}
 },

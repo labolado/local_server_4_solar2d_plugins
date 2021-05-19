@@ -15,14 +15,15 @@ urls = {
 		"android" => "https://github.com/labolado/solar2d_plugin.android.assets/releases/download/v1/2020.3620-android.tgz"
 	},
 	"plugin.google.iap.billing.plus" => {
-		"android" => "https://github.com/labolado/plugin.google.iap.billing.plus/releases/download/v2/2017.3105-android.tgz"
+		"android" => "https://github.com/labolado/plugin.google.iap.billing.plus/releases/download/v3/2017.3105-android.tgz"
 	},
 	"plugin.zip" => {
 		"android" => "https://github.com/coronalabs/com.coronalabs-plugin.zip/releases/download/v2/2017.3037-android.tgz",
 		"iphone" => "https://github.com/coronalabs/com.coronalabs-plugin.zip/releases/download/v2/2020.3590-iphone.tgz",
 		"iphone-sim" => "https://github.com/coronalabs/com.coronalabs-plugin.zip/releases/download/v2/2017.3037-iphone-sim.tgz",
 		"macos" => "https://github.com/coronalabs/com.coronalabs-plugin.zip/releases/download/v2/2017.3037-mac-sim.tgz",
-		# "win32" => "https://github.com/coronalabs/com.coronalabs-plugin.zip/releases/download/v2/2017.3037-win32-sim.tgz",
+		"win32" => "https://github.com/coronalabs/com.coronalabs-plugin.zip/releases/download/v2/2017.3037-win32-sim.tgz",
+		"win32-sim" => "https://github.com/coronalabs/com.coronalabs-plugin.zip/releases/download/v2/2017.3037-win32-sim.tgz",
 		"appletvos" => "https://github.com/coronalabs/com.coronalabs-plugin.zip/releases/download/v2/2017.3037-appletvos.tgz",
 	},
 	"plugin.bit" => {
@@ -31,6 +32,7 @@ urls = {
 		"iphone-sim" => "https://github.com/coronalabs/com.coronalabs-plugin.bit/releases/download/v2/2013.2584-iphone-sim.tgz",
 		"macos" => "https://github.com/coronalabs/com.coronalabs-plugin.bit/releases/download/v2/2013.2584-mac-sim.tgz",
 		"win32" => "https://github.com/coronalabs/com.coronalabs-plugin.bit/releases/download/v2/2013.2584-win32-sim.tgz",
+		"win32-sim" => "https://github.com/coronalabs/com.coronalabs-plugin.bit/releases/download/v2/2013.2584-win32-sim.tgz",
 		"appletvos" => "https://github.com/coronalabs/com.coronalabs-plugin.bit/releases/download/v2/2013.2584-appletvos.tgz",
 		"web" => "https://github.com/coronalabs/com.coronalabs-plugin.bit/releases/download/v2/2013.2584-web.tgz",
 
@@ -42,9 +44,9 @@ urls = {
 	},
 
 	"plugin.social.share" => {
-		"android" => "https://github.com/labolado/solar2d-plugin.social.share/releases/download/v1/2020.3620-android.tgz",
-		"iphone" => "https://github.com/labolado/solar2d-plugin.social.share/releases/download/v1/2020.3620-iphone.tgz",
-		"iphone-sim" => "https://github.com/labolado/solar2d-plugin.social.share/releases/download/v1/2020.3620-iphone-sim.tgz"
+		"android" => "https://github.com/labolado/solar2d-plugin.social.share/releases/download/v2/2020.3620-android.tgz",
+		"iphone" => "https://github.com/labolado/solar2d-plugin.social.share/releases/download/v2/2020.3620-iphone.tgz",
+		"iphone-sim" => "https://github.com/labolado/solar2d-plugin.social.share/releases/download/v2/2020.3620-iphone-sim.tgz"
 	},
 
 	"plugin.google.iap.v3" => {
@@ -53,7 +55,7 @@ urls = {
 
 	"CoronaProvider.native.popup.social" => {
 		"android" => "https://github.com/coronalabs/com.coronalabs-CoronaProvider.native.popup.social/releases/download/v1/2013.1164-android.tgz",
-		"mac" => "https://github.com/coronalabs/com.coronalabs-CoronaProvider.native.popup.social/releases/download/v1/2013.1164-mac-sim.tgz"
+		"macos" => "https://github.com/coronalabs/com.coronalabs-CoronaProvider.native.popup.social/releases/download/v1/2013.1164-mac-sim.tgz"
 	},
 
 
@@ -63,7 +65,13 @@ urls = {
 	"plugin.reviewPopUp" => {
 		"iphone" => "https://github.com/solar2d/tech.scotth-plugin.reviewPopUp/releases/download/v1/2016.3065-iphone.tgz",
 		"iphone-sim" => "https://github.com/solar2d/tech.scotth-plugin.reviewPopUp/releases/download/v1/2016.3065-iphone-sim.tgz"
-	}
+	},
+  "plugin.steamworks" => 
+        {
+			"macos" => "https://github.com/coronalabs/com.coronalabs-plugin.steamworks/releases/download/v2/2020.3590-mac-sim.tgz",
+			"win32" =>     "https://github.com/coronalabs/com.coronalabs-plugin.steamworks/releases/download/v2/2020.3590-win32-sim.tgz",
+			"win32-sim" => "https://github.com/coronalabs/com.coronalabs-plugin.steamworks/releases/download/v2/2020.3590-win32-sim.tgz",
+        },
 
 	# :android => {
 	# 	"plugin.zip" => "",
@@ -161,7 +169,7 @@ urls.keys.each do |key|
 		#newUrl = "https://github.91chifun.workers.dev//#{url}"
 		text +=  "\t\t[\"#{platform}\"] = {url = \"#{newUrl}\"},\r\n"
 
-		fileNames[url] = {:dir =>"/plugins/#{platform}/#{key}",  :name => "#{fname}"}
+		fileNames[platform + url] = {:dir =>"/plugins/#{platform}/#{key}",  :name => "#{fname}"}
 		 
 	end
 	text +=  "\t}\r\n"
@@ -181,13 +189,14 @@ urls.keys.each do |key|
 	items = urls[key]
 	items.keys.each do |platform|
 		url = items[platform]
-		fdata = fileNames[url]
+		fdata = fileNames[platform + url]
 		FileUtils.mkdir_p(current_dir + fdata[:dir]) if !File.exists?(current_dir + fdata[:dir])
 		wq.enqueue_b { 
-			ret = downloadFile("https://github.91chifun.workers.dev//" + url, current_dir + fdata[:dir] + "/" + fdata[:name]) 
+			saveDir =  fdata[:dir] + "/" + fdata[:name]
+			ret = downloadFile("https://github.91chifun.workers.dev//" + url, current_dir +saveDir) 
 			
 			if ret
-				puts("#{url} download ok ")  
+				puts("#{url} download ok: #{platform} #{saveDir}")  
 			else
 				puts(red("#{url} download failed")) 
 			end
